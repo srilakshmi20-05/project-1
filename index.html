@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily Activity Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Daily Activity Tracker</h2>
+  <input type="text" id="activity" placeholder="Activity name">
+  <input type="number" id="duration" placeholder="Minutes">
+  <button onclick="addActivity()">Add</button>
+
+  <table id="activityTable">
+    <tr>
+      <th>Activity</th>
+      <th>Minutes</th>
+    </tr>
+  </table>
+
+  <h3 id="totalTime">Total Time: 0 mins</h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
